@@ -1,7 +1,7 @@
 const workData = [
   {
     title: 'W사 건설사',
-    year: '2016',
+    year: '2015',
     desc: '페이지 컨버팅 (flash 에서 html) 및 관리자 페이지 개발',
     itemList: [
       'flash 웹접근 성에 위배되어 html 로 컨버팅 작업',
@@ -13,7 +13,7 @@ const workData = [
 
   {
     title: 'S사 소음측정 솔루션 업체',
-    year: '2016',
+    year: '2015',
     desc: 'S사 소음측정 Data 수집 및 Dashboard',
     itemList: [
       '소음 측정 데이터를 특정 주기별로 받아 데이터를 수집',
