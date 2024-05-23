@@ -9,3 +9,8 @@
 1. moment
 1. three
 1. motion
+
+
+### window key check
+
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v BackupProductKeyDefault
