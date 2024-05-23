@@ -87,12 +87,12 @@ const Navbar = props => {
           {/* <LinkItem href="/test" path={path}>
             Test
           </LinkItem> */}
-          <LinkItem href="/login" path={path}>
+          {/* <LinkItem href="/login" path={path}>
             LoginSample
           </LinkItem>
           <LinkItem href="/roullette" path={path}>
             Roullette
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem
             target="_blank"
             href="https://github.com/andurogit"
