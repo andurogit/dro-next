@@ -34,7 +34,7 @@ const workData = [
       '품목 마스터 CRM 마이그레이션',
       '바코드 입력 및 재고입력 프로세스 구현'
     ],
-    badges: ['DynamicCRM', 'Cshap']
+    badges: ['DynamicCRM', 'C#']
   },
 
   {
@@ -240,6 +240,18 @@ const workData = [
     desc: '내부 시스템 리뉴얼 개발 세팅 및 분석',
     itemList: ['내부 시스템 소스 세팅', '분석 및 개발 가이드'],
     badges: ['SPRINGBOOT', 'JAVA', 'Tomcat', 'React', 'MSA']
+  },
+
+  {
+    title: 'P사 S',
+    year: '2024',
+    desc: '서버 이관',
+    itemList: [
+      'SSL in App -> Web Server',
+      'Cloud -> OnPremise',
+      'AJP 포트 연동'
+    ],
+    badges: ['Linux', 'Spring Boot']
   }
 ]
 
