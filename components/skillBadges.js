@@ -104,5 +104,7 @@ export const skillBadges = {
 
   GA: <Badge>GoogleAnalytics</Badge>,
 
-  MSA: <Badge>MSA</Badge>
+  MSA: <Badge>MSA</Badge>,
+
+  Linux: <Badge>Linux</Badge>
 }

@@ -251,7 +251,7 @@ const workData = [
       'Cloud -> OnPremise',
       'AJP 포트 연동'
     ],
-    badges: ['Linux', 'Spring Boot']
+    badges: ['Linux', 'SPRINGBOOT']
   }
 ]
 
