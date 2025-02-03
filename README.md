@@ -1,16 +1,18 @@
-### Next Js
+# Next Js
 
 1. Next Js 를 사용한 업무 이력.
 2. Markdown file 을 연결하여 간략 보기 및 상세보기
 
-### Library
+## Library
 
 1. chakra ui
 1. moment
 1. three
 1. motion
 
+## Build
 
-### window key check
-
-reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform" /v BackupProductKeyDefault
+```text
+> vercel build
+> vercel --prod
+```
