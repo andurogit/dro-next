@@ -252,6 +252,42 @@ const workData = [
       'AJP 포트 연동'
     ],
     badges: ['Linux', 'SPRINGBOOT']
+  },
+
+  {
+    title: 'P사 S',
+    year: '2025',
+    desc: 'Key Account 관리 모듈 리뉴얼',
+    itemList: [
+      '관리 모듈 리뉴얼',
+      'Web, Mobile 프로세스 개발',
+      'ERP 인터페이스',
+      '보고서 메일링'
+    ],
+    badges: ['MSSQL', 'SPRINGBOOT']
+  },
+
+  {
+    title: 'P사 S',
+    year: '2025',
+    desc: 'Clean Machine 관리 모듈 개발',
+    itemList: [
+      '관련 프로세스 개발',
+      'Web, Mobile 개발',
+      '요건 개발',
+    ],
+    badges: ['MSSQL', 'SPRINGBOOT']
+  },
+
+  {
+    title: 'T사 KnockAPP',
+    year: '2025',
+    desc: '정책 연계 APP Demo 개발',
+    itemList: [
+      'APP 개발',
+      'Demo 버전'
+    ],
+    badges: ['SUPABASE', 'ReactNative']
   }
 ]
 
