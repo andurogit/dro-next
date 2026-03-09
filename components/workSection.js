@@ -12,8 +12,8 @@ import P from '../components/paragraph'
 import { skillBadges } from '../components/skillBadges'
 
 // WorkSection Component
-const WorkSection = (item, delayTime) => {
-  const { title, year, desc, itemList, badges } = item.item
+const WorkSection = ({ item, delayTime }) => {
+  const { title, year, desc, itemList, badges } = item
   return (
     <Section delay={Number(delayTime)}>
       <Layout>
@@ -25,13 +25,13 @@ const WorkSection = (item, delayTime) => {
           <P>{desc}</P>
 
           <UnorderedList ml={4} my={4}>
-            {itemList.map(detail => {
-              return <ListItem>{detail}</ListItem>
+            {itemList.map((detail, index) => {
+              return <ListItem key={index}>{detail}</ListItem>
             })}
           </UnorderedList>
           <HStack>
-            {badges.map((key, index) => (
-              <div key={index}>{skillBadges[key]}</div>
+            {badges.map((badgeKey, index) => (
+              <div key={index}>{skillBadges[badgeKey]}</div>
             ))}
           </HStack>
         </Container>

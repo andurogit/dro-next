@@ -21,7 +21,7 @@ import { FaUserAlt, FaLock } from 'react-icons/fa'
 const CFaUserAlt = chakra(FaUserAlt)
 const CFaLock = chakra(FaLock)
 
-const login = () => {
+const Login = () => {
   const [showPassword, setShowPassword] = useState(false)
 
   const handleShowClick = () => {
@@ -31,7 +31,7 @@ const login = () => {
   return (
     <Flex
       flexDirection="column"
-      widht="100wh"
+      width="100wh"
       height="100vh"
       //   backgroundColor="gray.200" // debug
       justifyContent="center"
@@ -55,10 +55,9 @@ const login = () => {
             >
               <FormControl>
                 <InputGroup>
-                  <InputLeftElement
-                    pointerEvents="none"
-                    children={<CFaUserAlt />}
-                  />
+                  <InputLeftElement pointerEvents="none">
+                    <CFaUserAlt />
+                  </InputLeftElement>
                   <Input type="email" placeholder="email address" />
                 </InputGroup>
               </FormControl>
@@ -67,8 +66,9 @@ const login = () => {
                   <InputLeftElement
                     pointerEvents="none"
                     // color="gray.300"
-                    children={<CFaLock />}
-                  />
+                  >
+                    <CFaLock />
+                  </InputLeftElement>
                   <Input
                     type={showPassword ? 'text' : 'password'}
                     placeholder="Password"
@@ -100,4 +100,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

@@ -9,23 +9,18 @@ import {
   List,
   ListItem,
   chakra,
-  SimpleGrid,
-  GridItem,
   useColorModeValue
 } from '@chakra-ui/react'
 
 // icons
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub } from 'react-icons/io5'
 
 import Layout from '../components/layouts/article'
 // styled components
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ProfileSection, ProfileYear } from '../components/profile'
-
-// image
-import thumbInkdrop from '../public/images/wizet.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
