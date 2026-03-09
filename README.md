@@ -16,3 +16,8 @@
 > vercel build
 > vercel --prod
 ```
+
+## Cloudflare 배포
+
+- npm clean-install --progress=false
+- 이거 통과되어야 함.
