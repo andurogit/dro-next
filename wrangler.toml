@@ -1,0 +1,15 @@
+name = "nextcrazydogclonecoding"
+main = ".open-next/worker.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[images]
+binding = "IMAGES"
+
+# esbuild settings to ignore direct eval warning
+[build]
+command = "npm run build && npx opennextjs-cloudflare build"
