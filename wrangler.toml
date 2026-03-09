@@ -9,7 +9,3 @@ binding = "ASSETS"
 
 [images]
 binding = "IMAGES"
-
-# esbuild settings to ignore direct eval warning
-[build]
-command = "npm run build && npx opennextjs-cloudflare build"

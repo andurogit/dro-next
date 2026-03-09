@@ -1,11 +1,11 @@
 {
-  "name": "nextcrazydogclonecoding",
+  "name": "dro-next",
   "version": "1.0.0",
   "description": "Crazy Dog Next Blog Clone Coding",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build && opennextjs-cloudflare build",
+    "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
@@ -21,7 +21,7 @@
     "gray-matter": "^4.0.3",
     "install": "^0.13.0",
     "moment": "^2.29.4",
-    "next": "^15.5.12",
+    "next": "^14.2.35",
     "npm": "^9.6.4",
     "react": "^18.3.1",
     "react-beautiful-dnd": "^13.1.1",
@@ -37,7 +37,7 @@
     "@opennextjs/cloudflare": "^1.17.1",
     "esbuild": "^0.27.3",
     "eslint": "9.39.4",
-    "eslint-config-next": "15.5.12",
+    "eslint-config-next": "^14.2.35",
     "prettier": "^2.8.7",
     "vercel": "^34.4.0",
     "wrangler": "^4.71.0"
